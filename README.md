@@ -6,10 +6,23 @@ A template for a repository that contains a Python module.
 
 As well as the template structure, this repository contains some notes, resources, and standards for developing and structuring Python modules.
 
+This template assumes that
+[sphinx](https://www.sphinx-doc.org/en/master/)
+is being used for documentation.
+
 #### Other Resources
 
 The following are other available resources for developing a Python module:
 - The [shablona template](https://github.com/uwescience/shablona) is a nice template for small scientific Python modules
+
+## Repository Structure
+
+The folders in this template are organized as follows:
+- `doc`: configuration and content files for making the documentation website
+- `modcode`: the source code of the module (renamed to reflect the module name)
+- `examples` and/or `tutorials`: examples and tutorials for using the module
+
+Individual files have notes within them detailing what they are for.
 
 ## README Outline
 
