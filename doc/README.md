@@ -24,26 +24,33 @@ One option for managing and making sphinx builds and deploys is to use a `Makefi
 ## Glossary
 
 sphinx
+
     A documentation tool for Python. Sphinx is like a 'platform', with a plugin structure.
     Basically, a way to write stuff in rst, and convert this into html.
 
 sphinx-gallery
+
     A plugin for sphinx that let's you write out rst tutorials and render them on the site.
     Also autogenerates notebook versions of the examples.
 
 github-pages
+
     A service on Github to get a URL host webpages.
 
 markup language
+
     A human-readable language that defines 'tags' in a document, that can control how the document gets rendered.
 
 markdown
+
     A markup language.
 
 restructured text (rst)
+
     Another markup language. Developed and used by the Python community.
 
 directives
+
     Directives are an rst construct, that sphinx uses. Sphinx defines a whole bunch of directives.
     Control element to insert a general pattern (and/or functionally, this can be to create a map / link).
         indicated as `.. directive::` (then indented block).
@@ -55,10 +62,12 @@ directives
             Object
 
 inline directives
+
     Inline directives / formatting are done as :directive:`input`.
     For example  :func:`my_function` or :math:`\chi`
 
 toc
+
     Stands for 'table of contents'.
     'toctree' ends up being equivalent to 'path'.
     Sphinx wants everything listed in a toc somewhere.
@@ -66,11 +75,13 @@ toc
 ## Notes
 
 Tricks to sphinx
+
     Linking. A big part of what sphinx does is mapping between things.
     Getting everything to link properly is part of getting the documentation site set up properly.
     Managing all of the general configurations & tuning to specific use cases / managing exceptions, etc.
 
 Linking
+
     Sphinx (& plugins) pull directly from source code.
     So, it matters where objects (functions / classes) get pulled from in the module.
         This relates to where functions are aliased (in `__init__.py`'s), and where they get linked to.
@@ -89,11 +100,7 @@ Linking
 
 ## LINKS
 
-sphinx
-    https://www.sphinx-doc.org/en/master/
-sphinx-gallery
-    https://sphinx-gallery.github.io/stable/index.html
-rst cheatsheet
-    https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
-numpydoc-standard
-    https://numpydoc.readthedocs.io/en/latest/format.html
+Useful links:
+- sphinx: https://www.sphinx-doc.org/en/master/
+- sphinx-gallery: https://sphinx-gallery.github.io/stable/index.html
+- rst cheatsheet: https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst

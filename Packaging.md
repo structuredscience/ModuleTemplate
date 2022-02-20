@@ -28,10 +28,12 @@ Release Candidates
 ## Tools
 
 PyPA
+
     'Python Packaging Authority'
     A working group that manages projects for Python packaging.
 
 PyPI
+
     'Python Package Index'
     A 'place'. It is a repository of Python software packages
     https://pypi.org
@@ -39,32 +41,30 @@ PyPI
     https://test.pypi.org/
 
 pip
+
     A tool (package) for installing Python packages. By default, gets things from PYPI.
 
 twine
+
     A utility (package) for publishing Python packages on PYPI.
     Does the uploading step to PYPI.
     https://twine.readthedocs.io/en/latest/
 
 setuptools
+
     A tool (package) for Python packaging.
     https://setuptools.readthedocs.io/en/latest/
 
 ## Links
 
-An overview of packaging, as an overview of preparing a package:
-    https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
-
-A guide for setting up and using the pypirc file:
-    https://truveris.github.io/articles/configuring-pypirc/
-
-pip vs. conda
-    Blog post on differences
-        https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/
-    conda-forge
-        Community collections for conda
-        https://conda-forge.org
-
-Semantic versioning
-    A specification for how to use meaningful version numbers
-    https://semver.org
+Some useful links:
+- An overview of packaging, as an overview of preparing a package
+    - https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
+- A guide for setting up and using the pypirc file
+    - https://truveris.github.io/articles/configuring-pypirc/
+- pip vs. conda:
+    - Blog post on differences: https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/
+- conda-forge
+    - https://conda-forge.org
+- Semantic versioning: a specification for how to use meaningful version numbers
+    - https://semver.org
